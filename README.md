@@ -1,6 +1,6 @@
 
 Hearthstone-SPA
-#ReactJS #PureJS #NoJQuery #PetProject
+#ReactJS #PureJS #PetProject
 
 http://lakutin.pp.ua/HearthstoneReactJS/ - demonstration
 
