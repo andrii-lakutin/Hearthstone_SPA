@@ -1,0 +1,104 @@
+/*Nav menu*/
+.navigation{
+    position: relative;
+
+    display: block;
+}
+.navigation a{
+    width: 16.6666666667%;
+    height: 80px;
+
+    text-decoration: none;
+}
+.navigation li{
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 80px;
+
+    z-index: 3;
+
+    display: block;
+    float: left;
+
+    width: 16.6666666667%;
+    height: 80px;
+
+    text-align: center;
+
+    color: #d6b43a;
+    background: linear-gradient(to left, rgba(73,38,105,.9), rgba(225,52,237,.9) , rgba(73,38,105,.9));
+    background-color: rgb(73,38,105);
+    box-shadow: -81px 3px 8px -79px #000 inset,
+    81px 3px 8px -79px #000 inset,
+    58px 85px 8px -79px #000 inset,
+    58px -85px 8px -79px #000 inset;
+    text-shadow: 2px 2px black;
+}
+.navigation li:hover{
+    transition: background-color .7s;
+
+    color: #fd0;
+    background: #492669;
+}
+
+.navSlimed{
+    position: fixed;
+    z-index: 15;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+}
+
+.liSlimed{
+    line-height: 50px !important;
+
+    height: 50px !important;
+}
+
+.goToTop{
+    line-height: 55px;
+
+    position: fixed;
+    z-index: 10;
+    bottom: -250px;
+    left: 20px;
+
+    display: block;
+
+    width: 45px;
+    height: 45px;
+
+    cursor: pointer;
+    text-align: center;
+
+    color: white;
+    border: 2px solid black;
+    -webkit-border-radius: 9999px;
+            border-radius: 9999px;
+    background: rgba(73,38,105,.9);
+    box-shadow: -3px 3px 41px 7px rgb(73,38,105);
+}
+
+
+@keyframes goToTopJump{
+    from{
+        bottom: -250px;
+    }
+    to{
+        bottom: 20px;
+    }
+}
+
+.goToTopJump{
+    -webkit-animation: goToTopJump 500ms;
+       -moz-animation: goToTopJump 500ms;
+         -o-animation: goToTopJump 500ms;
+            animation: goToTopJump 500ms;
+    -webkit-animation-delay: 700ms;
+            animation-delay: 700ms;
+
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}

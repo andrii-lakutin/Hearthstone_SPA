@@ -1,0 +1,278 @@
+/* Registration */
+
+.loginActivated{
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+
+    background: rgb(73,38,105);
+}
+
+.loginActivated p{
+    padding-top: 30px;
+}
+.loginActivated:hover{
+    background: rgb(73,38,105);
+}
+
+@keyframes buttonForPasswordAnim{
+    from{
+        -webkit-transform: rotate(0deg);
+           -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+             -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+           -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+             -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+
+.buttonForPasswordAnim{
+    -webkit-animation: buttonForPasswordAnim 300ms ;
+       -moz-animation: buttonForPasswordAnim 300ms ;
+         -o-animation: buttonForPasswordAnim 300ms ;
+            animation: buttonForPasswordAnim 300ms ;
+
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+
+.db{
+    display: block !important;
+}
+
+.inputLogin{
+    font-size: 50px;
+
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+
+    display: none;
+
+    width: 500px;
+    height: 0;
+    margin-top: -40px;
+    margin-left: -250px;
+
+    transition: all 800ms ;
+
+    color: white;
+    color: #d6b43a;
+    border: none;
+    border-top: 5px solid #d6b43a;
+    border-bottom: 5px solid #d6b43a;
+    background-color: transparent;
+}
+
+
+.borderDisapear{
+    border-top: 0 ;
+    border-bottom: 0 ;
+}
+.DisapearByOpacity{
+    opacity: 0;
+}
+.inputLoginAppearance{
+    height: 80px;
+}
+.inputLogin:focus{
+    outline: none;
+}
+.inputLoginSlideUp{
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+@keyframes inputPasswordAnim{
+    from{
+        height: 0;
+    }
+    to{
+        height: 80px;
+    }
+}
+
+.inputPasswordAnim{
+    -webkit-animation: inputPasswordAnim 500ms ease;
+       -moz-animation: inputPasswordAnim 500ms ease;
+         -o-animation: inputPasswordAnim 500ms ease;
+            animation: inputPasswordAnim 500ms ease;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
+
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+
+@keyframes wordPasswordAnim{
+    from{
+        margin-left: -450px;
+    }
+    to{
+        margin-left: -240px;
+    }
+}
+
+.wordPasswordAnim{
+    -webkit-animation: wordPasswordAnim 500ms ease;
+       -moz-animation: wordPasswordAnim 500ms ease;
+         -o-animation: wordPasswordAnim 500ms ease;
+            animation: wordPasswordAnim 500ms ease;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
+
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+
+
+.wordLogin{
+    font-size: 50px;
+
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+
+    display: block;
+    display: none;
+
+    width: 100px;
+    height: 50px;
+    margin-top: -15px;
+    margin-left: -450px;
+
+    transition: all 400ms ;
+
+    color: #d6b43a;
+}
+
+@keyframes wordLoginAnim{
+    from{
+        margin-left: -450px;
+    }
+    to{
+        margin-left: -240px;
+    }
+}
+
+.wordLoginAnim{
+    -webkit-animation: wordLoginAnim 500ms;
+       -moz-animation: wordLoginAnim 500ms;
+         -o-animation: wordLoginAnim 500ms;
+            animation: wordLoginAnim 500ms;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
+
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+
+.buttonForLogin{
+    font-size: 60px;
+
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 70%;
+
+    display: none;
+
+    width: 100px;
+    height: 80px;
+    margin-top: -22px;
+
+    cursor: pointer;
+    transition: all 800ms ease;
+}
+
+.inputPassword{
+    font-size: 50px;
+
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+
+    display: none;
+
+    width: 500px;
+    height: 0;
+    margin-top: -40px;
+    margin-left: -250px;
+
+    transition: all 800ms ease;
+
+    color: white;
+    color: #d6b43a;
+    border: none;
+    border-top: 5px solid #d6b43a;
+    border-bottom: 5px solid #d6b43a;
+    background-color: transparent;
+}
+.inputPassword:focus{
+    outline: none;
+}
+
+.wordPassword{
+    font-size: 50px;
+
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+
+    display: none;
+
+    width: 100px;
+    height: 50px;
+    margin-top: -15px;
+    margin-left: -450px;
+
+    transition: all 400ms;
+
+    color: #d6b43a;
+}
+.buttonForPassword{
+    font-size: 60px;
+
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 70%;
+
+    display: none;
+
+    width: 100px;
+    height: 80px;
+    margin-top: -22px;
+
+    cursor: pointer;
+    transition: all 800ms ease;
+}
+
+.FlyUp{
+    margin-top: -105px;
+}
+.BecomeActive{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-indent: 20px;
+}
+.GrowUp{
+    font-size: 80px;
+
+    height: 95px;
+}

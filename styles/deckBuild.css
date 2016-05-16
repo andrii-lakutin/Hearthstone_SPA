@@ -1,0 +1,137 @@
+/*Deck build*/
+
+.DeckBuildContainer{
+    position: relative;
+
+    clear: both;
+
+    max-width: 2000px;
+    height: 743px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    background: url(img/bg.jpg) 50% 0 repeat-y;
+    box-shadow: -3px 3px 41px 7px rgb(73,38,105);
+}
+
+.mainblockDeckBuild{
+    position: absolute;
+    left: 50%;
+
+    width: 1357px;
+    height: 643px;
+    margin-left: -682.5px;
+
+    background: url(img/background.png) no-repeat;
+}
+
+.cardsDeckBuild{
+    position: absolute;
+    top: 19.5%;
+    left: 50%;
+
+    width: 157px;
+    height: 223px;
+
+    cursor: pointer;
+    transition: all .2s;
+}
+.cardDeckBuild1{
+    margin-left: -470px;
+
+    background: url(img/1.png);
+}
+.cardDeckBuild2{
+    margin-left: -300px;
+
+    background: url(img/2.png);
+}
+.cardDeckBuild3{
+    margin-left: -127px;
+
+    background: url(img/3.png);
+}
+.cardDeckBuild4{
+    margin-left: 43px;
+
+    background: url(img/4.png);
+}
+.cardDeckBuild5{
+    margin-top: 270px;
+    margin-left: -470px;
+
+    background: url(img/5.png);
+}
+.cardDeckBuild6{
+    margin-top: 270px;
+    margin-left: -300px;
+
+    background: url(img/6.png);
+}
+.cardDeckBuild7{
+    margin-top: 270px;
+    margin-left: -127px;
+
+    background: url(img/7.png);
+}
+.cardDeckBuild8{
+    margin-top: 270px;
+    margin-left: 43px;
+
+    background: url(img/8.png);
+}
+
+
+.dropZone{
+    position: absolute;
+    top: 12.3%;
+    right: 16%;
+
+    overflow: hidden;
+
+    width: 173px;
+    height: 563px;
+
+    background-color: rgba(0,0,0,.5);
+}
+
+.cardmove{
+    position: static;
+
+    float: left;
+
+    width: 169px;
+    height: 28px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.cardmove1{
+    background: url(img/1m.png);
+}
+.cardmove2{
+    background: url(img/2m.png);
+}
+.cardmove3{
+    background: url(img/3m.png);
+}
+.cardmove4{
+    background: url(img/4m.png);
+}
+.cardmove5{
+    background: url(img/5m.png);
+}
+.cardmove6{
+    background: url(img/6m.png);
+}
+.cardmove7{
+    background: url(img/7m.png);
+}
+.cardmove8{
+    background: url(img/8m.png);
+}
+
+.boxshadow{
+    box-shadow: -3px 3px 41px 7px rgb(73,38,105);
+}

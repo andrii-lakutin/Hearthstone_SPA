@@ -1,0 +1,245 @@
+/*NEWS*/
+.newsContainer{
+    position: relative;
+
+    clear: both;
+
+    max-width: 2000px;
+    height: 700px;
+    margin: 0 auto;
+
+    background-color: black;
+    box-shadow: -3px 3px 41px 7px rgb(73,38,105);
+}
+
+.newsImages{
+    position: relative;
+
+    float: left;
+    overflow: hidden;
+
+    width: 100%;
+    height: 0;
+}
+
+.description{
+    font-family: 'Cinzel', serif;
+
+    position: absolute;
+    bottom: 0;
+
+    text-align: center;
+
+    color: white;
+    box-shadow: -77px 3px 8px -79px #000 inset,
+    77px 3px 8px -79px #000 inset,
+    58px 80px 8px -79px #000 inset,
+    58px -80px 8px -79px #000 inset;
+    text-shadow: 1px 1px black;
+}
+.description h3{
+    font-size: 24px;
+    font-weight: 600;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.description p{
+    font-size: 14px;
+
+    padding-bottom: 8px;
+}
+.NewsBg1{
+    background-color: rgba(26, 188, 156,.5);
+}
+.NewsBg2{
+    background-color: rgba(39, 174, 96,.5);
+}
+.NewsBg3{
+    background-color: rgba(52, 152, 219,.5);
+}
+.NewsBg4{
+    background-color: rgba(142, 68, 173,.5);
+}
+.NewsBg5{
+    background-color: rgba(192, 57, 43,.5);
+}
+.NewsBg6{
+    background-color: rgba(241, 196, 15,.5);
+}
+
+#NewsBg1{
+    background: url(img/news1bw.jpg) 50% 50% no-repeat;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+#NewsBg2{
+    background: url(img/news2bw.jpg) 50% 50% no-repeat;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+#NewsBg3{
+    background: url(img/news3bw.jpg) 50% 50% no-repeat;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+#NewsBg4{
+    background: url(img/news4bw.jpg) 50% 50% no-repeat;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+#NewsBg5{
+    background: url(img/news5bw.jpg) 50% 50% no-repeat;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+#NewsBg6{
+    background: url(img/news6bw.jpg) 50% 50% no-repeat;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+#NewsBg1:hover{
+    background: url(img/news1.jpg) 50% 50% no-repeat;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+#NewsBg2:hover{
+    background: url(img/news2.jpg) 50% 50% no-repeat;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+#NewsBg3:hover{
+    background: url(img/news3.jpg) 50% 50% no-repeat;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+#NewsBg4:hover{
+    background: url(img/news4.jpg) 50% 50% no-repeat;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+#NewsBg5:hover{
+    background: url(img/news5.jpg) 50% 50% no-repeat;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+#NewsBg6:hover{
+    background: url(img/news6.jpg) 50% 50% no-repeat;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.row{
+    height: 300px;
+}
+.cell{
+    float: left;
+
+    width: 33.33333333333%;
+    height: 300px;
+}
+
+@keyframes CardsAnimation{
+    from{
+        width: 0;
+        height: 0;
+    }
+    to{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+.dn{
+    display: none;
+}
+
+.newsCard1anim{
+    display: block;
+
+    -webkit-animation: CardsAnimation 500ms;
+       -moz-animation: CardsAnimation 500ms;
+         -o-animation: CardsAnimation 500ms;
+            animation: CardsAnimation 500ms;
+
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+.newsCard2anim{
+    display: block;
+
+    -webkit-animation: CardsAnimation 500ms;
+       -moz-animation: CardsAnimation 500ms;
+         -o-animation: CardsAnimation 500ms;
+            animation: CardsAnimation 500ms;
+    -webkit-animation-delay: 500ms ;
+            animation-delay: 200ms;
+
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+.newsCard3anim{
+    display: block;
+
+    -webkit-animation: CardsAnimation 500ms;
+       -moz-animation: CardsAnimation 500ms;
+         -o-animation: CardsAnimation 500ms;
+            animation: CardsAnimation 500ms;
+    -webkit-animation-delay: 1000ms;
+            animation-delay: 400ms;
+
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+.newsCard4anim{
+    display: block;
+
+    -webkit-animation: CardsAnimation 500ms;
+       -moz-animation: CardsAnimation 500ms;
+         -o-animation: CardsAnimation 500ms;
+            animation: CardsAnimation 500ms;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 200ms;
+
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+.newsCard5anim{
+    display: block;
+
+    -webkit-animation: CardsAnimation 500ms;
+       -moz-animation: CardsAnimation 500ms;
+         -o-animation: CardsAnimation 500ms;
+            animation: CardsAnimation 500ms;
+    -webkit-animation-delay: 1000ms;
+            animation-delay: 400ms;
+
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+.newsCard6anim{
+    display: block;
+
+    -webkit-animation: CardsAnimation 500ms;
+       -moz-animation: CardsAnimation 500ms;
+         -o-animation: CardsAnimation 500ms;
+            animation: CardsAnimation 500ms;
+    -webkit-animation-delay: 1500ms;
+            animation-delay: 600ms;
+
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}

@@ -1,0 +1,63 @@
+/*Start Content Container*/
+.StartContent{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+    max-width: 2000px;
+    height: 1050px;
+    margin: 0 auto; /* Выравнивает блок по центру */
+    margin-top: -16px;
+
+    background: url(img/bg.jpg) 50% 0 repeat-y;
+    box-shadow: -3px 3px 41px 7px rgb(73,38,105);
+}
+.FewWords{
+    font-family: 'Cinzel', serif;
+
+    clear: both;
+
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+.FewWords h1{
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 42px;
+
+    padding: 70px 0 20px 0;
+}
+.FewWords p{
+    font-size: 16px;
+    line-height: 22px;
+
+    padding: 12px 0 12px 0;
+}
+.cardsPreview{
+    display: block;
+
+    width: 1246px;
+    height: 689px;
+    margin: 25px auto;
+}
+/*ANCHORS*/
+.NamedRows{
+    font-family: 'Cinzel', serif;
+    font-size: 80px;
+    line-height: 100px;
+
+    width: 100%;
+    height: 100px;
+
+    color: #d6b43a;
+    background-color: rgb(73,38,105);
+    box-shadow: -81px 3px 8px -79px #000 inset,
+    81px 3px 8px -79px #000 inset,
+    58px 85px 8px -79px #000 inset,
+    58px -85px 8px -79px #000 inset;
+    text-shadow: 2px 2px black;
+}
